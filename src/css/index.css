@@ -1,0 +1,30 @@
+* {
+   margin:0;
+   padding: 0;
+}
+
+* {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+}
+
+
+/* 内容区 */
+.content {
+   background-color: #666;
+   position: absolute;
+    -webkit-transform: rotatex(-20deg);
+    transform: rotatex(-20deg);
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
